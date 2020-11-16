@@ -1,0 +1,23 @@
+.loginPage {
+  display: flex;
+  width: 100%;
+  justify-content: space-around;
+}
+.loginContainer {
+  align-items: center;
+  width: 400px;
+  height: 500px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* padding: 20px; */
+  /* margin: 20px; */
+  /* border: solid 1px; */
+  z-index: 2;
+}
+.loginImage {
+  margin-top: 20px;
+  border: solid 1px;
+  position: absolute;
+  padding: 20px;
+}
