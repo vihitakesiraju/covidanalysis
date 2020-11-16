@@ -1,0 +1,9 @@
+.predictionTable{
+    width: 50%;
+}
+.inflowPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    align-content: center;
+}
