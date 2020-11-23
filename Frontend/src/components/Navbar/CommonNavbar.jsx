@@ -46,7 +46,7 @@ class CommonNavbar extends Component {
                                 <a className="nav-link" href="/patientinflow">Patient In Flow</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Twitter Facts</a>
+                                <a className="nav-link" href="/twitteranalysis">Twitter Facts</a>
                             </li>
 
 

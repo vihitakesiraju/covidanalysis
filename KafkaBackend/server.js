@@ -3,14 +3,8 @@ var connection = new require('./kafka/Connection');
 require('dotenv').config({ path: __dirname + '/.env' })
 require('./config/mongoConnection');
 
-const restaurant = require('./services/restaurant')
-const login = require('./services/login')
-const customer = require('./services/customer')
-const messages = require('./services/messages')
-const orders = require('./services/orders')
-const events = require('./services/events')
-const reviews = require('./services/reviews')
-const images = require('./services/images')
+
+const inflow = require('./services/inflowservices')
 
 
 function handleTopicRequest(topic_name, fname) {
@@ -19,8 +13,8 @@ function handleTopicRequest(topic_name, fname) {
     var producer = connection.getProducer();
     // console.log('server is running ');
     consumer.on('message', function (message) {
-        console.log('message received for ' + topic_name + " ", fname);
-        console.log(JSON.stringify(message.value));
+        // console.log('message received for ' + topic_name + " ", fname);
+        // console.log(JSON.stringify(message.value));
         var data = JSON.parse(message.value);
 
         fname.handle_request(data.data, function (err, res) {
@@ -67,14 +61,13 @@ function handleTopicRequest(topic_name, fname) {
 //second argument is a function that will handle this topic request
 // handleTopicRequest("post_book", Books)
 
-handleTopicRequest("restaurant", restaurant)
-handleTopicRequest("customer", customer)
-handleTopicRequest("login", login)
-handleTopicRequest("messages", messages)
-handleTopicRequest("orders", orders)
-handleTopicRequest("events", events)
-handleTopicRequest("reviews", reviews)
-handleTopicRequest("images", images)
+handleTopicRequest("inflow", inflow)
+
+
+
+
+
+
 
 
 
