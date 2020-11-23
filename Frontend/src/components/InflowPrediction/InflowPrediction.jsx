@@ -9,31 +9,34 @@ class InflowPrediction extends Component {
         res: []
     }
     componentDidMount() {
+        localStorage.setItem('hospitalName', 'Select Specialty Hospital - Camp Hill')
         // let hospID = localStorage.getItem("hospitalID")
         let hospID = 1;
         Axios.get(`${routes.BACKEND_URL}/inflow/${routes.GET_INFLOW_HOSPITAL}`, {
             params: {
-                hospitalID: hospID
+                hospitalID: localStorage.getItem('hospitalName')
             }
         }).then((res) => {
-            console.log(res)
-            this.setState({ res: res.data })
+            console.log(res.data)
+            this.setState({ res: [...res.data] })
         }).catch((err) => {
             console.log(err)
         })
     }
     render() {
-        let renderVar, data;
+        let renderVar, data, dropdown;
         if (this.state.res.length > 0) {
+            console.log("---")
             let labels = [];
             let values = [];
             renderVar = this.state.res.map((row, key) => {
-                labels.push(row.Date)
-                values.push(row.Percentage);
+                console.log(row)
+                labels.push(row.DATE)
+                values.push(row.PREDICTION);
                 return <tr>
                     <th scope="row">{key + 1}</th>
-                    <td>{row.Date}</td>
-                    <td>{row.Percentage}</td>
+                    <td>{row.DATE}</td>
+                    <td>{row.PREDICTION}</td>
                 </tr>
             })
 
@@ -70,6 +73,9 @@ class InflowPrediction extends Component {
         return (
             <div className="inflowPage">
                 <h3>Hospital Inflow Prediction</h3>
+                <div>
+                    {dropdown}
+                </div>
                 <div className="predictionTable">
                     <table className="table table-striped table-hover">
                         <thead>

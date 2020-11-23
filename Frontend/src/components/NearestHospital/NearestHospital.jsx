@@ -25,7 +25,7 @@ class NearestHospital extends Component {
         })
     }
 
-    handlesubmit=(e)=>{
+    handlesubmit = (e) => {
         console.log("inside handle submit")
     }
     render() {
@@ -43,75 +43,53 @@ class NearestHospital extends Component {
                 </tr>
             })
 
-            data = {
-                labels: labels,
-                datasets: [
-                    {
-                        label: 'Percentage increase',
-                        data: values,
-                        fill: false,
-                        backgroundColor: 'rgb(255, 99, 132)',
-                        borderColor: 'rgba(255, 99, 132, 0.2)',
-                    },
-                ],
-            }
+
         }
 
 
 
 
-        const options = {
-            scales: {
-                yAxes: [
-                    {
-                        ticks: {
-                            beginAtZero: true,
-                        },
-                    },
-                ],
-            },
-        }
-        
+
         return (
             // <div>
             //     <input></input>
             // </div>
             <div className="inflowPage">
-            <form className="predictionTable">
-            <div class="form-row">
-              <div class="form-group col-md-6">
-                <label>Enter the Location for hospital suggestion</label>
-                <input type="text" class="form-control" placeholder="Location"></input>
-              </div>
-           
- 
-            <div className="button">
-            <button type="submit" class="btn btn-primary btn-lg" onClick={this.handlesubmit}>submit</button>
-            </div>
-            </div>
-          </form>
-          <div>
-                
-                <div className="predictionTable">
-                    <table className="table table-striped table-hover">
-                        <thead>
-                            <tr>
-                                <th scope="col">#</th>
-                                <th scope="col">Date</th>
-                                <th scope="col">Percentage</th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            {renderVar}
-                        </tbody>
-                    </table>
-                </div>
+                <form className="predictionTable">
+                    <div class="form-row">
+                        <div class="form-group col-md-6">
+                            <label>Enter the Location for hospital suggestion</label>
+                            <input type="text" class="form-control" placeholder="Location"></input>
+                        </div>
+
+
+                        <div className="button">
+                            <button type="submit" class="btn btn-primary btn-lg" onClick={this.handlesubmit}>submit</button>
+                        </div>
+                    </div>
+                </form>
                 <div>
-                    <h1>Hospitals displayed on a map</h1>
+
+                    <div className="predictionTable">
+                        <table className="table table-striped table-hover">
+                            <thead>
+                                <tr>
+                                    <th scope="col">#</th>
+                                    <th scope="col">Date</th>
+                                    <th scope="col">Percentage</th>
+                                </tr>
+                            </thead>
+                            <tbody>
+                                {renderVar}
+                            </tbody>
+                        </table>
+                    </div>
+                    <div>
+                        <h1>Hospitals displayed on a map</h1>
+                    </div>
+
                 </div>
-                
             </div>
-          </div>
         );
     }
 }

@@ -37,7 +37,7 @@ class CommonNavbar extends Component {
                                 <a className="nav-link" href="#">Restaurant Sign Up</a>
                             </li> */}
                             <li className="nav-item">
-                                <a className="nav-link" href="/">Hotspots</a>
+                                <a className="nav-link" href="/geospatialHotspots">Hotspots</a>
                             </li>
                             <li className="nav-item">
                                 <a className="nav-link" href="/nearestHospital">Nearest Hospital</a>

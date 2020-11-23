@@ -5,6 +5,7 @@ import CommonNavbar from './Navbar/CommonNavbar';
 import InflowPrediction from './InflowPrediction/InflowPrediction'
 import NearestHospital from './NearestHospital/NearestHospital';
 import TwitterAnalysis from './TwitterAnalysis/TwitterAnalysis'
+import GeoSpatialHotspots from './GeoSpatialHotspots/GeoSpatialHotspots';
 //Create a Main Component
 class Main extends Component {
     render() {
@@ -12,9 +13,10 @@ class Main extends Component {
             <div>
                 {/*Render Different Component based on Route*/}
                 <Route path="/" component={CommonNavbar} />
-                <Route path="/twitteranalysis" component={TwitterAnalysis}/> 
+                <Route path="/twitteranalysis" component={TwitterAnalysis} />
                 <Route path="/patientinflow" component={InflowPrediction} />
                 <Route path="/nearestHospital" component={NearestHospital} />
+                <Route path="/geospatialHotspots" component={GeoSpatialHotspots} />
 
                 {/* <Route path="/login" component={Login} />
                 <Route path="/home" component={Home} />
