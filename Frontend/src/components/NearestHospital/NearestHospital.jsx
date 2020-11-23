@@ -4,6 +4,8 @@ import Axios from 'axios';
 import routes from '../../config/routeConstants'
 
 import { Line } from 'react-chartjs-2'
+import MapDisplayNearest from '../Maps/MapDisplay_Nearest'
+
 import '../NearestHospital/NearestHospital.styles.css'
 
 class NearestHospital extends Component {
@@ -11,18 +13,7 @@ class NearestHospital extends Component {
         res: []
     }
     componentDidMount() {
-        // let hospID = localStorage.getItem("hospitalID")
-        let hospID = 1;
-        Axios.get(`${routes.BACKEND_URL}/inflow/${routes.GET_INFLOW_HOSPITAL}`, {
-            params: {
-                hospitalID: hospID
-            }
-        }).then((res) => {
-            console.log(res)
-            this.setState({ res: res.data })
-        }).catch((err) => {
-            console.log(err)
-        })
+
     }
 
     handlesubmit = (e) => {
@@ -86,6 +77,7 @@ class NearestHospital extends Component {
                     </div>
                     <div>
                         <h1>Hospitals displayed on a map</h1>
+                        <MapDisplayNearest />
                     </div>
 
                 </div>

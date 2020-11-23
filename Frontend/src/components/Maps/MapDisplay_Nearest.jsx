@@ -11,7 +11,7 @@ import "./MapDisplay.styles.css";
 // import axios from "axios";
 // import CustomButton from "../CustomButton/CustomButton";
 // import routeConstants from '../../../Config/routeConstants'
-class MapDisplay extends Component {
+class MapDisplayNearest extends Component {
     state = {
         currentPosition: {
             latitude: "37.335369402664305",
@@ -22,7 +22,24 @@ class MapDisplay extends Component {
         selectedPlace: {
             name: "someplacename",
         },
-        locations: [],
+        locations: [
+            {
+                latitude: "37.315269402664305",
+                longitude: "-121.81419263457866",
+            },
+            {
+                latitude: "37.395169402664303",
+                longitude: "-121.82319263457844",
+            },
+            {
+                latitude: "37.335369402664302",
+                longitude: "-121.83619263457825",
+            },
+            {
+                latitude: "37.375364402664302",
+                longitude: "-121.841192634578232",
+            }
+        ],
     };
 
     async componentDidMount() {
@@ -97,38 +114,28 @@ class MapDisplay extends Component {
                 <h4>Location</h4>
                 <Map
                     google={this.props.google}
+                    zoom={11.5}
                     onClick={this.onMapClicked}
                     initialCenter={{
                         lat: 37.330516,
                         lng: -121.885233,
                     }}
                 >
-                    {/* {this.state.locations.map((location) => ( */}
-                    <Marker
-                        // label={"string"}
-                        // key={location._id}
-                        // title={location.ADDRESS.STREET}
-                        // locationID={location._id}
-                        // name={location.NAME}
-                        onClick={this.onMarkerClick}
-                        position={{
-                            lat: this.state.currentPosition.latitude,
-                            lng: this.state.currentPosition.longitude,
-                        }}
-                    />
-                    <Circle
-                        radius={900}
-                        center={coords}
-                        // onMouseover={() => console.log('mouseover')}
-                        onClick={this.onMarkerClick}
-                        // onMouseout={() => console.log('mouseout')}
-                        strokeColor='transparent'
-                        strokeOpacity={0}
-                        strokeWeight={5}
-                        fillColor='#FF0000'
-                        fillOpacity={0.2}
-                    />
-                    {/* ))} */}
+                    {this.state.locations.map((location) => (
+                        <Marker
+                            // label={"string"}
+                            // key={location._id}
+                            // title={location.ADDRESS.STREET}
+                            // locationID={location._id}
+                            // name={location.NAME}
+                            onClick={this.onMarkerClick}
+                            position={{
+                                lat: location.latitude,
+                                lng: location.longitude,
+                            }}
+                        />
+
+                    ))}
 
                     <InfoWindow
                         marker={this.state.activeMarker}
@@ -153,4 +160,4 @@ class MapDisplay extends Component {
 
 export default GoogleApiWrapper({
     apiKey: "AIzaSyDEn8HT69AFasbJ2m_uf3G5pfEtdhdkVfg",
-})(MapDisplay);
+})(MapDisplayNearest);
