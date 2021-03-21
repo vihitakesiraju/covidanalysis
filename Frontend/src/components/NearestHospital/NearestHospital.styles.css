@@ -10,9 +10,16 @@
 .predictionTable {
   width: 50%;
 }
-.inflowPage {
+.nearestHospital {
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
 }
+/* .locationSearch{
+  display: flex;
+  width:50%;
+}
+.searchBar{
+  width: 50%;
+} */

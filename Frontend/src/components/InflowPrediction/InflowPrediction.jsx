@@ -11,7 +11,6 @@ class InflowPrediction extends Component {
     componentDidMount() {
         localStorage.setItem('hospitalName', 'Select Specialty Hospital - Camp Hill')
         // let hospID = localStorage.getItem("hospitalID")
-        let hospID = 1;
         Axios.get(`${routes.BACKEND_URL}/inflow/${routes.GET_INFLOW_HOSPITAL}`, {
             params: {
                 hospitalID: localStorage.getItem('hospitalName')

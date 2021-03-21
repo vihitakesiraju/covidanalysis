@@ -34,8 +34,9 @@ app.use(function (req, res, next) {
 });
 
 const inflowRoutes = require('./routes/inflowRoutes')
-
+const nearestHospitalRoutes = require('./routes/nearestHospitalRoutes')
 app.use('/inflow', inflowRoutes)
+app.use('/nearestHospitals', nearestHospitalRoutes)
 
 
 //start your server on port 3001

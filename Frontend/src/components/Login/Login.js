@@ -23,7 +23,7 @@ class Login extends Component {
         this.submitLogin = this.submitLogin.bind(this);
     }
     //Call the Will Mount to set the auth Flag to false
-    componentWillMount() {
+    componentDidMount() {
         this.setState({
             authFlag: false
         })

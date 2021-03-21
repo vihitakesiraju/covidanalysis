@@ -4,6 +4,7 @@ module.exports = {
 
     GET_INFLOW_HOSPITAL: "/inflow",
 
+    GET_NEAREST_HOSPITALS: "/nearestHospitals",
     /**Response status codes */
     RES_UNKNOWN_ERROR: 502,
     RES_BAD_REQUEST: 400,

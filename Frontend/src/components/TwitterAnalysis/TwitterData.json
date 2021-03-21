@@ -1,0 +1,38 @@
+[
+  {
+    "fact": "Dexamethasone is a corticosteroid used for its anti-inflammatory and immunosuppressive effects.",
+    "false": "Is dexamethasone a treatment for all COVID-19 patients?",
+    "factDate": "11/23/2021",
+    "falseDate": "10/15/2021"
+  },
+  {
+    "fact": "People should NOT wear masks when exercising, as masks may reduce the ability to breathe comfortably.",
+    "false": "People should wear masks at all times devoid of the circumstances",
+    "factDate": "11/23/2021",
+    "falseDate": "10/15/2021"
+  },
+  {
+    "fact": "The COVID-19 virus does not transmit through water while swimming. However, the virus spreads between people when someone has close contact with an infected person. ",
+    "false": "COVID-19 can be transmitted through water bodies",
+    "factDate": "11/23/2021",
+    "falseDate": "10/15/2021"
+  },
+  {
+    "fact": "The likelihood of shoes spreading COVID-19 is very low",
+    "false": "Shoes and other footwear can spread the virus at a faster rate from an infected place",
+    "factDate": "11/23/2021",
+    "falseDate": "10/15/2021"
+  },
+  {
+    "fact": "The coronavirus disease (COVID-19) is caused by a virus, NOT by bacteria",
+    "false": "Corona is a type of bacteria which spreads rapidly",
+    "factDate": "11/23/2021",
+    "falseDate": "10/15/2021"
+  },
+  {
+    "fact": "Most people who get COVID-19 recover from it",
+    "false": "COVID-19 cannot be cured and cannot be recovered",
+    "factDate": "11/23/2021",
+    "falseDate": "10/15/2021"
+  }
+]

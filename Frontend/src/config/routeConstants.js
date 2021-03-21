@@ -3,6 +3,7 @@ module.exports = {
     BACKEND_URL: "http://localhost:3001",
 
     GET_INFLOW_HOSPITAL: "/inflow",
+    GET_NEAREST_HOSPITALS: "/nearestHospitals",
 
     /**Response status codes */
     RES_UNKNOWN_ERROR: 502,

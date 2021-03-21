@@ -19,7 +19,7 @@ class Login extends Component {
         loginStatus: ""
     }
 
-    componentWillMount() {
+    componentDidMount() {
         console.log(store);
         this.setState({
             authFlag: false

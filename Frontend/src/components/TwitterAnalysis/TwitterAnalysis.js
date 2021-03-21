@@ -1,57 +1,114 @@
 import React, { Component } from 'react';
+import twitterData from './TwitterData.json'
+import { useTable } from 'react-table'
+// import 'bootstrap/dist/css/bootstrap.min.css';
+
+import { Card, Button } from 'react-bootstrap';
 
 class TwitterAnalysis extends Component {
-    state = {  }
-    render() { 
-        return ( 
-            
-            <div class="container"> 
-        <div class="row"> 
-            <div class="col-lg-6 mb-4"> 
-                <div class="card text-white bg-secondary mb-1"> 
-                    <img class="card-img-top" src="" alt=""></img>
-  
-                    <div class="card-header">
-    Tweets
-  </div>
-                </div> 
-                <div class="card-body">
-    <h5 class="card-title">#covid #food #spreadsviafood</h5>
-    <p class="card-text">Covid can spread through food</p>
-   
-  </div>
-            </div> 
- 
- <div>
+    state = {}
+    render() {
 
- </div>
+        let rowList = twitterData.map((row, i) => {
+            return (
+                <tr style={{ border: "none" }}>
+                    <th scope="row">{i}</th>
+                    <td><Card className="text-center">
+                        <Card.Body>
+                            <Card.Title>{row.fact}</Card.Title>
+                            {/* <Card.Text>
+                                Some Card body content goes here
+                            </Card.Text> */}
+                            {/* <Button variant="primary">Primary Button</Button> */}
+                        </Card.Body>
+                        {/* <Card.Footer className="text-muted">Card footer title Goes Here</Card.Footer> */}
+                    </Card></td>
+                    <td><Card className="text-center">
+                        <Card.Body>
+                            <Card.Title>{row.false}</Card.Title>
+                            {/* <Card.Text>
+                                Some Card body content goes here
+                            </Card.Text> */}
+                            {/* <Button variant="primary">Primary Button</Button> */}
+                        </Card.Body>
+                        {/* <Card.Footer className="text-muted">Card footer title Goes Here</Card.Footer> */}
+                    </Card></td>
+                    <td><Card className="text-center">
+                        <Card.Body>
+                            <Card.Title>{row.falseDate}</Card.Title>
+                            {/* <Card.Text>
+                                Some Card body content goes here
+                            </Card.Text> */}
+                            {/* <Button variant="primary">Primary Button</Button> */}
+                        </Card.Body>
+                        {/* <Card.Footer className="text-muted">Card footer title Goes Here</Card.Footer> */}
+                    </Card></td>
+                </tr>
+            )
+        })
+        let columns = ["#", "Fact", "False Tweet", "Tweet Date"]
+        // const {
+        //     getTableProps,
+        //     getTableBodyProps,
+        //     headerGroups,
+        //     rows,
+        //     prepareRow,
+        // } = useTable({
+        //     columns,
+        //     twitterData,
+        // })
+
+        return (
+            <div className="twitterAnalysis">
+                <div className="tableContainer" style={{ fontSize: "20px" }}>
+                    <table class="table" style={{ border: "none" }}>
+                        <thead>
+                            <tr>
+                                <th scope="col" style={{ width: "5%" }}>#</th>
+                                <th scope="col" style={{ width: "40%" }}>Fact</th>
+                                <th scope="col" style={{ width: "40%" }}>False Tweet</th>
+                                <th scope="col" style={{ width: "15%" }}>Tweet Date</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+
+                            {
+                                rowList
+                            }
+
+                        </tbody>
+                    </table>
 
 
-            <div class="col-lg-6 mb-4"> 
-                <div class="card text-white bg-secondary mb-1"> 
-                    <img class="card-img-top" src="" alt=""></img>
-  
-                    <div class="card-header">
-    Facts
-  </div> 
-  </div> 
-<div>  <div class="card-body">
-    
-    <p class="card-text">WHO confirms that covid doesn't spread through food</p>
-    
-  </div>
-  </div>
-                
-            </div> 
-        </div> 
+                    {/* <table {...getTableProps()}>
+                        <thead>
+                            {headerGroups.map(headerGroup => (
+                                <tr {...headerGroup.getHeaderGroupProps()}>
+                                    {headerGroup.headers.map(column => (
+                                        <th {...column.getHeaderProps()}>{column.render('Header')}</th>
+                                    ))}
+                                </tr>
+                            ))}
+                        </thead>
+                        <tbody {...getTableBodyProps()}>
+                            {rows.map((row, i) => {
+                                prepareRow(row)
+                                return (
+                                    <tr {...row.getRowProps()}>
+                                        {row.cells.map(cell => {
+                                            // return <td {...cell.getCellProps()}>{cell['Cell']}</td>
+                                        })}
+                                    </tr>
+                                )
+                            })}
+                        </tbody>
+                    </table> */}
 
-         
-    </div> 
-  
-  
 
-         );
+                </div>
+            </div>
+        );
     }
 }
- 
+
 export default TwitterAnalysis;

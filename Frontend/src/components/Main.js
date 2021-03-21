@@ -6,6 +6,8 @@ import InflowPrediction from './InflowPrediction/InflowPrediction'
 import NearestHospital from './NearestHospital/NearestHospital';
 import TwitterAnalysis from './TwitterAnalysis/TwitterAnalysis'
 import GeoSpatialHotspots from './GeoSpatialHotspots/GeoSpatialHotspots';
+import GeoSpatialHotspotsJS from './GeoSpatialHotspots/GeoSpatialHotspotsJS';
+
 //Create a Main Component
 class Main extends Component {
     render() {
@@ -16,6 +18,7 @@ class Main extends Component {
                 <Route path="/twitteranalysis" component={TwitterAnalysis} />
                 <Route path="/patientinflow" component={InflowPrediction} />
                 <Route path="/nearestHospital" component={NearestHospital} />
+                {/* <Route path="/geospatialHotspots" component={GeoSpatialHotspotsJS} /> */}
                 <Route path="/geospatialHotspots" component={GeoSpatialHotspots} />
 
                 {/* <Route path="/login" component={Login} />
