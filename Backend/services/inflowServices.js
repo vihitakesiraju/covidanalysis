@@ -10,12 +10,13 @@ const {
 } = require("../config/routeConstants");
 const csv = require('csvtojson')
 
+const fs = require('fs')
 
 
 
 module.exports.getinflowprediction = async (req, res) => {
     console.log("Inside Inflow GET Hospital prediction service" + JSON.stringify(req.query));
-    const csvFilePath = './services/prediction_withdate.csv'
+    const csvFilePath = './data/TimeSeries.json'
     // csv()
     //     .fromFile(csvFilePath)
     //     .then((jsonObj) => {
@@ -23,30 +24,38 @@ module.exports.getinflowprediction = async (req, res) => {
 
     //     })
 
-    const jsonArray = await csv().fromFile(csvFilePath);
-    // console.log(jsonArray)
-    let processArray = []
-    jsonArray.map((val) => {
-        // console.log(val.HOSPITAL_NAME)
-        if (val.HOSPITAL_NAME === req.query.hospitalID) {
-            processArray.push({
-                DATE: val.date,
-                PREDICTION: val.prediction
-            })
+    // const jsonArray = fs.readFile(csvFilePath)
+    // // await csv().fromFile(csvFilePath);
+    // // console.log(jsonArray)
+    let out = {}
+
+    fs.readFile("./data/TimeSeries.json", "utf8", (err, jsonString) => {
+        if (err) {
+            console.log("Error reading file from disk:", err);
+            return;
         }
-        // if (processArray[`${val.HOSPITAL_NAME}`] !== undefined) {
-        //     processArray[val.HOSPITAL_NAME].push({
-        //         DATE: val.date,
-        //         PREDICTION: val.prediction
-        //     })
-        // }
-        // else {
-        //     processArray[val.HOSPITAL_NAME] = [{
-        //         DATE: val.date,
-        //         PREDICTION: val.prediction
-        //     }]
-        // }
-    })
-    res.status(RES_SUCCESS).end(JSON.stringify(processArray));
+        try {
+            const jsonArr = JSON.parse(jsonString);
+            const json = jsonArr[req.query.hospitalID]
+            out = {
+                dates: json.date,
+                deaths: json.deaths,
+                cases: json.cases
+            }
+            console.log(out);
+        } catch (err) {
+            console.log("Error parsing JSON string:", err);
+        }
+        finally {
+            // processArray.sort(function (a, b) {
+            //     let d1 = new Date(a["DATE"]);
+            //     let d2 = new Date(b["DATE"])
+            //     return d2 > d1
+            // });
+            res.status(RES_SUCCESS).end(JSON.stringify(out));
+
+        }
+    });
+    // console.log(processArray)
 
 }

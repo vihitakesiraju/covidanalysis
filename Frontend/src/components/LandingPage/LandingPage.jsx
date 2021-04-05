@@ -1,25 +1,27 @@
 import React, { Component } from 'react';
 // import bgImage from '../../../Assets/BackgroundImages/LandingPage.jpg'
-import yelpLogo from '../../../Assets/YelpLogo.svg.png'
+import sjsuLogo from '../../../src/public/assets/SJSU.png'
 import './LandingPage.styles.css'
 class LandingPage extends Component {
     state = {}
     render() {
         return (
-            <div>
+            <div className="landingPage">
                 {/* <img src={bgImage} class="img-fluid" alt="Responsive image" /> */}
                 <div className=" jumboImage jumbotron-fluid">
                     <div className="container2">
 
-                        <img src={yelpLogo} alt="yelpLogo" width='200px' height='100px' />
-                        <div className="searchComp">
-                            <form className="form-inline" onSubmit={this.searchHandler}>
-                                <input className="form-control mr-sm-2 " type="text" name="search_string" style={{ width: '550px' }} placeholder="Search for Restaurants, Locations and Dishes" value={this.state.searchString} onChange={this.inputChangeHandler} aria-label="Search" />
-                                <button className="btn btn-danger my-2 my-sm-0" type="submit">Search</button>
-                            </form>
-                        </div>
+                        <img src={sjsuLogo} className="sjsuLogo" alt="sjsuLogo" />
 
+                        <div className="display-2 text-light">COVID-19 Analysis</div>
                     </div>
+
+                </div>
+                <div className="buttonGroup">
+                    <a href="/geospatialHotspots"><button className="homeButton"> Geospatial Hotspots</button></a>
+                    <a href='/nearestHospital'>    <button className="homeButton">Nearest Hospital</button></a>
+                    <a href='/patientinflow'>   <button className="homeButton">Case Predictions</button></a>
+                    <a href='/twitteranalysis'>   <button className="homeButton">Tweets Analysis</button></a>
                 </div>
             </div>
         );

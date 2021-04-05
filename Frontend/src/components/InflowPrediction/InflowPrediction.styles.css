@@ -1,9 +1,21 @@
-.predictionTable{
-    width: 50%;
+.predictionTable {
+  width: 50%;
 }
-.inflowPage{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    align-content: center;
+.inflowPage {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  align-content: center;
+  min-height: 900px;
 }
+.lineGraph {
+  width: 50%;
+  display: block;
+  justify-content: center;
+  /* background-color: rgb(255,255,255); */
+}
+/* .graph {
+  height: 300px;
+  width: 400px;
+} */

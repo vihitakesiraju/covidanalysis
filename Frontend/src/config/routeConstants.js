@@ -5,6 +5,9 @@ module.exports = {
     GET_INFLOW_HOSPITAL: "/inflow",
     GET_NEAREST_HOSPITALS: "/nearestHospitals",
 
+    GET_TWEETS_PAGINATED: "/tweetsPaginated",
+    GET_ALL_TWEETS: "/allTweets",
+
     /**Response status codes */
     RES_UNKNOWN_ERROR: 502,
     RES_BAD_REQUEST: 400,

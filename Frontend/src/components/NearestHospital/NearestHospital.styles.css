@@ -7,19 +7,27 @@
   display: inline-block;
   font-size: 18px;
 }
-.predictionTable {
+/* .predictionTable {
   width: 50%;
-}
+} */
 .nearestHospital {
   display: flex;
   flex-direction: column;
   align-items: center;
   align-content: center;
+  justify-content: center;
 }
-/* .locationSearch{
+.locationSearch{
   display: flex;
-  width:50%;
+  justify-content: center;
+  width:70%;
+  
 }
 .searchBar{
-  width: 50%;
-} */
+  margin-top: 15px;
+  width: 100%;
+}
+.searchButton{
+  margin-bottom: 10px;
+  /* background-color: #903749; */
+}

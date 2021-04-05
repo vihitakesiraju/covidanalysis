@@ -35,8 +35,11 @@ app.use(function (req, res, next) {
 
 const inflowRoutes = require('./routes/inflowRoutes')
 const nearestHospitalRoutes = require('./routes/nearestHospitalRoutes')
+const twitterRoutes = require('./routes/twitterRoutes')
+
 app.use('/inflow', inflowRoutes)
 app.use('/nearestHospitals', nearestHospitalRoutes)
+app.use('/twitter', twitterRoutes)
 
 
 //start your server on port 3001

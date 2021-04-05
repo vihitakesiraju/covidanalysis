@@ -1,12 +1,13 @@
 import React, { Component } from 'react';
 // import MapDisplay from '../Maps/MapDisplay'
-import ReactMapGL, { Marker, Layer, Source, Popup } from 'react-map-gl';
-import covidData from '../../config/Test.json'
+import ReactMapGL, { Layer, Source, Popup } from 'react-map-gl';
+import covidData from '../../config/clusters.json'
+import './GeoSpatialHotspots.styles.css'
 class GeoSpatialHotspots extends Component {
     state = {
         viewport: {
-            width: 1500,
-            height: 600,
+            width: "1300px",
+            height: "600px",
             latitude: 37.7577,
             longitude: -122.4376,
             zoom: 7
@@ -21,7 +22,7 @@ class GeoSpatialHotspots extends Component {
         clusterLayer: {
             id: 'clusters',
             type: 'circle',
-            source: 'earthquakes',
+            // source: 'earthquakes',
             filter: ['has', 'point_count'],
             paint: {
                 // Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
@@ -31,28 +32,19 @@ class GeoSpatialHotspots extends Component {
                 //   * Pink, 40px circles when point count is greater than or equal to 750
                 'circle-color': [
                     'step',
-                    ['get', 'point_count'],
-                    '#51bbd6',
-                    100,
-                    '#f1f075',
-                    750,
-                    '#f28cb1'
+                    ['get', 'point_count'], '#F87060',
+                    100, '#F87060',
+                    750, '#F87060'
                 ],
-                'circle-radius': [
-                    'step',
+                'circle-radius': ['step',
                     ['get', 'point_count'],
-                    20,
-                    100,
-                    30,
-                    750,
-                    40
-                ]
+                    20, 100, 30, 750, 40]
             }
         },
         clusterCount: {
             id: 'cluster-count',
             type: 'symbol',
-            source: 'earthquakes',
+            // source: 'earthquakes',
             filter: ['has', 'point_count'],
             layout: {
                 'text-field': '{point_count_abbreviated}',
@@ -63,10 +55,10 @@ class GeoSpatialHotspots extends Component {
         unclusteredPoints: {
             id: 'unclustered-point',
             type: 'circle',
-            source: 'earthquakes',
+            // source: 'earthquakes',
             filter: ['!', ['has', 'point_count']],
             paint: {
-                'circle-color': '#11b4da',
+                'circle-color': '#F87060',
                 'circle-radius': 8,
                 'circle-stroke-width': 1,
                 'circle-stroke-color': '#fff'
@@ -75,65 +67,88 @@ class GeoSpatialHotspots extends Component {
         parkColor: "#8fa",
         clusterSource: {
             type: 'geojson',
-            // Point to GeoJSON data. This example visualizes all M1.0+ earthquakes
-            // from 12/22/15 to 1/21/16 as logged by USGS' Earthquake hazards program.
             data: covidData,
-            // 'https://docs.mapbox.com/mapbox-gl-js/assets/earthquakes.geojson',
             cluster: true,
             clusterMaxZoom: 14, // Max zoom to cluster points on
             clusterRadius: 50 // Radius of each cluster when clustering points (defaults to 50)
         },
         showPopup: true,
+        popupLocation: {
 
+        }
 
+    }
+
+    filterLocation(location) {
+        console.log(location)
+        let res = covidData.features.filter((loc) => {
+            let temp = loc.geometry.coordinates
+            // console.log(temp);
+            if (temp[0].toFixed(1) === location[0].toFixed(1) && temp[1].toFixed(1) === location[1].toFixed(1)) {
+                return loc
+            }
+            return null;
+        })
+        console.log(res);
+        if (res.length > 0) {
+            this.setState({ popupLocation: res[0], showPopup: true })
+        }
     }
 
     togglePopup() {
         let currState = this.state.showPopup;
-        this.setState({ showPopup: !currState });
+        this.setState({ showPopup: !currState }, () => console.log(this.state.popupLocation));
     }
 
     onUnclusteredClick = (e) => {
-        console.log(e);
+        // console.log(e);
+        this.filterLocation(e.lngLat)
     }
 
     render() {
         // console.log(process.env.REACT_APP_MAPBOX_ACCESS_TOKEN)
         return (
-            <div>
-                <h2>GeoSpatial Hotspots</h2>
-                <ReactMapGL
-                    {...this.state.viewport}
-                    onViewportChange={(viewport) => this.setState({ viewport })}
-                    mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
-                    onClick={this.onUnclusteredClick}
+            <div className="hotspots">
+                <h2 className="text-white">GeoSpatial Hotspots</h2>
+                <div className="mapContainer">
+                    <ReactMapGL
+                        {...this.state.viewport}
+                        onViewportChange={(viewport) => this.setState({ viewport })}
+                        mapboxApiAccessToken={process.env.REACT_APP_MAPBOX_ACCESS_TOKEN}
+                        onClick={(event) => this.onUnclusteredClick(event)}
 
-                >
-                    <Marker latitude={37.75} longitude={-122.43} offsetLeft={-20} offsetTop={-10}>
-                        <div>You are here</div>
-                    </Marker>
+                    >
+                        {/* <Marker latitude={37.75} longitude={-122.43} offsetLeft={-20} offsetTop={-10}>
+                            <div>You are here</div>
+                        </Marker> */}
 
-                    <Layer {...this.state.parkLayer} paint={{ 'fill-color': this.state.parkColor }} />
+                        <Layer {...this.state.parkLayer} paint={{ 'fill-color': this.state.parkColor }} />
 
 
-                    <Source {...this.state.clusterSource}>
-                        <Layer  {...this.state.clusterLayer} onClick={() => console.log("Clicked clustered Point")} />
-                        <Layer {...this.state.clusterCount} onClick={() => console.log("Clicked count Point")} />
-                        <Layer id="unclustered" {...this.state.unclusteredPoints} onClick={() => console.log("Clicked Unclustered Point")} />
+                        <Source {...this.state.clusterSource}
+                        >
+                            <Layer  {...this.state.clusterLayer} />
+                            <Layer {...this.state.clusterCount} />
+                            <Layer id="unclustered" {...this.state.unclusteredPoints} />
 
-                    </Source>
+                        </Source>
 
-                    {this.state.showPopup && <Popup
-                        latitude={37.75}
-                        longitude={-122.43}
-                        closeButton={true}
-                        closeOnClick={false}
-                        onClose={() => this.togglePopup()}
-                        anchor="top" >
-                        <div>You are here</div>
-                    </Popup>}
+                        {this.state.showPopup && this.state.popupLocation.geometry && <Popup
+                            latitude={this.state.popupLocation.geometry.coordinates[1]}
+                            longitude={this.state.popupLocation.geometry.coordinates[0]}
+                            closeButton={true}
+                            closeOnClick={false}
+                            onClose={() => this.togglePopup()}
+                            anchor="top" >
+                            <p><b>Days to 10X:</b>{this.state.popupLocation.properties.DaysTo10X}</p>
+                            {/* <p><b>Confirmed Cases:</b>{this.state.popupLocation.properties.CumConfirmed}</p> */}
+                            {/* <p><b>Deaths:</b>{this.state.popupLocation.properties.CumDeaths}</p> */}
+                            <p><b>Current Acceleration:</b>{this.state.popupLocation.properties.CurrentAccel}</p>
+                            <p><b>Cluster Center:</b>{this.state.popupLocation.geometry.coordinates[0] + " , " + this.state.popupLocation.geometry.coordinates[1]}</p>
+                        </Popup>}
 
-                </ReactMapGL>
+                    </ReactMapGL>
+                </div>
             </div>
         );
     }

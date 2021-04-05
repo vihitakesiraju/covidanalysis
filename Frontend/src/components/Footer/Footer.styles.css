@@ -1,0 +1,38 @@
+.footer{
+    position: relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #F87060;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+    
+}
+ul {
+    list-style-type: none;
+}
+
+.footerText{
+    text-align: center;
+    display: flex;
+    justify-content: space-between;
+    color: black;
+    width: "50%"
+}
+.footerBand{
+    height: 15px;
+   
+    background-color: #EFF9F0;
+}
+
+
+.footerAdjust{
+    display: flex;
+    flex-direction: column;
+    margin-top: 100px;
+    justify-content: left;
+}

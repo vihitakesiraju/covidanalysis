@@ -10,7 +10,9 @@ class Pins extends Component {
         }
     }
 
-
+    titleCase(str) {
+        return str.toLowerCase().replace(/\b(\w)/g, s => s.toUpperCase());
+    }
     setPopupInfo = () => {
         let curr = this.state.popupInfo
         this.setState({ popupInfo: !curr });
@@ -62,7 +64,12 @@ class Pins extends Component {
                             closeOnClick={false}
                             onClose={this.setPopupInfo}
                         >
-                            <p>{this.state.city.city} </p>
+                            <p><b>Name: </b>{this.titleCase(this.state.city.NAME)}</p>
+                            <p><b>Address: </b>{this.titleCase(this.state.city.ADDRESS)} </p>
+                            <p><b>Telephone: </b>{this.titleCase(this.state.city.TELEPHONE)}</p>
+                            <p><b>Type: </b>{this.titleCase(this.state.city.TYPE)}</p>
+                            <p><b>County: </b>{this.titleCase(this.state.city.COUNTY)}</p>
+
                         </Popup>
                     )
                 }

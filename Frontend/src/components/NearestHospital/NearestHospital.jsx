@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import ReactMapGL, { FlyToInterpolator } from 'react-map-gl';
 import Pins from './Pins'
-import CITIES from '../../config/Hospitals.json'
+// import CITIES from '../../config/Hospitals.json'
 
 import '../NearestHospital/NearestHospital.styles.css'
 import './LocationSearch'
@@ -17,8 +17,8 @@ class NearestHospital extends Component {
         clat: null,
         clng: null,
         viewport: {
-            width: 1000,
-            height: 600,
+            width: "1300px",
+            height: "600px",
             latitude: 37.7577,
             longitude: -122.4376,
             zoom: 13,
@@ -77,17 +77,15 @@ class NearestHospital extends Component {
             //     <input></input>
             // </div>
             <div className="nearestHospital">
-                <div className="form-row locationSearch">
+                <div className="form-row locationSearch ">
                     <div className="form-group col-md-6 searchBar">
-                        <label>Enter the Location for hospital suggestion</label>
+                        <p className="text-white">Enter the Location for hospital suggestion</p>
                         {/* <input type="text" class="form-control" placeholder="Location"></input> */}
                         <LocationSearch onSearch={this.setMapCenterOnSearch} />
-                        {this.state.address === "" ? "" : "Selected:" + this.state.address}
+                        <p className="text-white">{this.state.address === "" ? "" : "Selected:" + this.state.address}</p>
                     </div>
-
-
-                    <div className="button">
-                        <button className="btn btn-primary btn-lg" onClick={this.handlesubmit}>submit</button>
+                    <div className="button searchButton">
+                        <button className="btn" style={{ background: "#F87060" }} onClick={this.handlesubmit}>Submit</button>
                     </div>
                 </div>
                 <div>

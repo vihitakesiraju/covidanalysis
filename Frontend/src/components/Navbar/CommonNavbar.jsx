@@ -1,26 +1,17 @@
 import React, { Component } from 'react';
-// import { Link } from 'react-router-dom';
-// import cookie from 'react-cookies';
-// import { Redirect } from 'react-router';
-// import { login, logout } from '../../../reduxConfig/LoginActions'
-// import { connect } from 'react-redux';
-// import yelpLogo from '../../../Assets/YelpLogo.svg.png'
-
+import './CommonNavbar.styles.css'
+import homeIcon from '../../public/assets/home.png'
 //create the Navbar Component
 class CommonNavbar extends Component {
-    // constructor(props) {
-    //     super(props);
-    //     this.handleLogout = this.handleLogout.bind(this);
-    // }
 
     render() {
 
 
 
         return (
-            <div style={{ fontSize: "17px", color: "black" }}>
-                <nav className="navbar navbar-expand-lg navbar-light bg-info">
-                    <a className="navbar-brand" href="/"><img src={""} height='40px' /></a>
+            <div className="navBar" style={{ fontSize: "17px", color: "black" }}>
+                <nav className="navbar navbar-expand-lg navbar-light navbarClass" style={{ marginBottom: "0px" }}>
+                    <a className="navbar-brand" href="/"><img src={homeIcon} alt="home" height='25px' /></a>
                     <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
                         <span className="navbar-toggler-icon"></span>
                     </button>
@@ -36,17 +27,17 @@ class CommonNavbar extends Component {
                             <li className="nav-item">
                                 <a className="nav-link" href="#">Restaurant Sign Up</a>
                             </li> */}
-                            <li className="nav-item">
-                                <a className="nav-link" href="/geospatialHotspots">Hotspots</a>
+                            <li className="nav-item ">
+                                <a className="nav-link text-dark" href="/geospatialHotspots">Hotspots</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/nearestHospital">Nearest Hospital</a>
+                                <a className="nav-link text-dark" href="/nearestHospital">Nearest Hospital</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/patientinflow">Patient In Flow</a>
+                                <a className="nav-link text-dark" href="/patientinflow">Patient In Flow</a>
                             </li>
                             <li className="nav-item">
-                                <a className="nav-link" href="/twitteranalysis">Twitter Facts</a>
+                                <a className="nav-link text-dark" href="/twitteranalysis">Twitter Facts</a>
                             </li>
 
 
@@ -60,7 +51,7 @@ class CommonNavbar extends Component {
 
                     </div>
                 </nav>
-
+                <div className="colorBand"></div>
 
             </div>
         )

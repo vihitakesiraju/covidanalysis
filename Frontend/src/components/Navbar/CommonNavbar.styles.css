@@ -1,0 +1,17 @@
+.navbarClass{
+    background-color: #F87060;
+    font-weight: 500;
+    font-size: large;
+    color:black;
+}
+
+.colorBand{
+    height:15px;
+    background-color: #EFF9F0;
+    margin-bottom: 20px;
+}
+/* .navBar{
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+} */

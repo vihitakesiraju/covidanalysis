@@ -1,0 +1,28 @@
+.tdTable {
+  border-collapse: collapse;
+  border-style: hidden !important;
+  background-color: transparent;
+  color: white;
+  vertical-align: middle !important;
+  height: 130px;
+}
+
+thead {
+  color: white;
+}
+
+.tableContainer {
+  width: 80%;
+}
+.twitterAnalysis {
+  display: flex;
+  justify-content: center;
+  /* flex-direction: column; */
+  align-self: center;
+}
+td > tr {
+  height: 200px;
+}
+thead > tr > th {
+  text-align: center;
+}
