@@ -92,8 +92,6 @@ class NearestHospital extends Component {
 
 
                     <div>
-                        {/* <h1>Hospitals displayed on a map</h1> */}
-                        {/* <MapDisplay clat={this.state.clat} clng={this.state.clng} /> */}
 
                         <ReactMapGL
                             {...this.state.viewport}

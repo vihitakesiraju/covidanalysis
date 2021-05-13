@@ -3,7 +3,6 @@ var express = require('express');
 var app = express();
 var bodyParser = require('body-parser');
 var session = require('express-session');
-var cookieParser = require('cookie-parser');
 var cors = require('cors');
 const routes = require('./config/routeConstants')
 //use cors to allow cross origin resource sharing
@@ -18,9 +17,7 @@ app.use(session({
     activeDuration: 5 * 60 * 1000
 }));
 
-// app.use(bodyParser.urlencoded({
-//     extended: true
-//   }));
+
 app.use(bodyParser.json());
 
 //Allow Access Control

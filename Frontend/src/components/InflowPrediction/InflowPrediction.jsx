@@ -27,11 +27,8 @@ class InflowPrediction extends Component {
 
 
     selectCounty = (e) => {
-        // console.log(e.target.value);
         localStorage.setItem('hospitalName', e.target.value)
-        // localStorage.setItem('hospitalName', 'Grant,North Dakota,58533')
 
-        // let hospID = localStorage.getItem("hospitalID")
         Axios.get(`${routes.BACKEND_URL}/inflow/${routes.GET_INFLOW_HOSPITAL}`, {
             params: {
                 hospitalID: localStorage.getItem('hospitalName')
@@ -45,9 +42,7 @@ class InflowPrediction extends Component {
     }
     render() {
         let renderVar, data, data2, dropdown, labels, values;
-        // let key = 0;
         if (this.state.res.dates && this.state.res.dates.length > 0) {
-            // console.log("---")
             labels = this.state.res.dates;
             values = this.state.res.cases;
 
@@ -60,11 +55,7 @@ class InflowPrediction extends Component {
                 </tr>
             })
 
-            //     return <tr>
-            //     <th scope="row">{key + 1}</th>
-            //     <td>{row.dates}</td>
-            //     <td>{row.cases}</td>
-            // </tr>
+
 
             data = {
                 labels: labels,
@@ -76,8 +67,7 @@ class InflowPrediction extends Component {
                         backgroundColor: 'rgb(255, 99, 132)',
                         borderColor: 'rgba(255, 255, 255)',
                         bounds: "data"
-                        // pointBackgroundColor: 'rgba(255, 255, 255)',
-                        // pointBackgroundColor: 'rgba(255, 255, 255)',
+
                     },
                 ],
 
@@ -93,8 +83,7 @@ class InflowPrediction extends Component {
                         backgroundColor: 'rgb(255, 99, 132)',
                         borderColor: 'rgba(255, 255, 255)',
                         bounds: "data"
-                        // pointBackgroundColor: 'rgba(255, 255, 255)',
-                        // pointBackgroundColor: 'rgba(255, 255, 255)',
+
                     },
                 ],
 
@@ -116,7 +105,6 @@ class InflowPrediction extends Component {
                     fontColor: "#fff"
                 },
                 xAxes: [{ gridLines: { color: "rgb(255,255,255,0.7)" } }],
-                // yAxes: [{ gridLines: { color: "#fff" } }],
                 yAxes: [
                     {
                         gridLines: { color: "rgb(255,255,255,0.7)" },
@@ -128,9 +116,7 @@ class InflowPrediction extends Component {
                             max: Math.max(values)
                         }
                     },
-                    // {
-                    //     fontColor: "#fff",
-                    // }
+
                 ],
             },
         }

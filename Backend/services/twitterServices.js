@@ -16,8 +16,6 @@ const fs = require('fs')
 
 module.exports.getTweetsPaginated = async (req, res) => {
     console.log("Inside Tweets GET Paginated service" + JSON.stringify(req.query));
-    // const csvFilePath = './data/json_file.json'
-
     let processArray = []
     let returnVar
     fs.readFile("./data/NewTweets.json", "utf8", (err, jsonString) => {
@@ -27,9 +25,6 @@ module.exports.getTweetsPaginated = async (req, res) => {
         }
         try {
             const jsonArray = JSON.parse(jsonString);
-            // console.log(jsonArray);
-
-
             let page = req.query.page || 1,
                 per_page = req.query.limit || 10,
                 offset = (page - 1) * per_page,
@@ -45,16 +40,11 @@ module.exports.getTweetsPaginated = async (req, res) => {
                 total_pages: total_pages,
                 data: paginatedItems
             };
-
-
-
         } catch (err) {
             console.log("Error parsing JSON string:", err);
         }
         finally {
-
             res.status(RES_SUCCESS).end(JSON.stringify(returnVar));
-
         }
     });
     console.log(processArray)

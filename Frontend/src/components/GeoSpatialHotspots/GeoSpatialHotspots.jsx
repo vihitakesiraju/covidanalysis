@@ -25,11 +25,6 @@ class GeoSpatialHotspots extends Component {
             // source: 'earthquakes',
             filter: ['has', 'point_count'],
             paint: {
-                // Use step expressions (https://docs.mapbox.com/mapbox-gl-js/style-spec/#expressions-step)
-                // with three steps to implement three types of circles:
-                //   * Blue, 20px circles when point count is less than 100
-                //   * Yellow, 30px circles when point count is between 100 and 750
-                //   * Pink, 40px circles when point count is greater than or equal to 750
                 'circle-color': [
                     'step',
                     ['get', 'point_count'], '#F87060',
@@ -44,7 +39,6 @@ class GeoSpatialHotspots extends Component {
         clusterCount: {
             id: 'cluster-count',
             type: 'symbol',
-            // source: 'earthquakes',
             filter: ['has', 'point_count'],
             layout: {
                 'text-field': '{point_count_abbreviated}',
@@ -55,7 +49,6 @@ class GeoSpatialHotspots extends Component {
         unclusteredPoints: {
             id: 'unclustered-point',
             type: 'circle',
-            // source: 'earthquakes',
             filter: ['!', ['has', 'point_count']],
             paint: {
                 'circle-color': '#F87060',
@@ -83,7 +76,6 @@ class GeoSpatialHotspots extends Component {
         console.log(location)
         let res = covidData.features.filter((loc) => {
             let temp = loc.geometry.coordinates
-            // console.log(temp);
             if (temp[0].toFixed(1) === location[0].toFixed(1) && temp[1].toFixed(1) === location[1].toFixed(1)) {
                 return loc
             }
@@ -106,7 +98,6 @@ class GeoSpatialHotspots extends Component {
     }
 
     render() {
-        // console.log(process.env.REACT_APP_MAPBOX_ACCESS_TOKEN)
         return (
             <div className="hotspots">
                 <h2 className="text-white">GeoSpatial Hotspots</h2>
@@ -118,9 +109,6 @@ class GeoSpatialHotspots extends Component {
                         onClick={(event) => this.onUnclusteredClick(event)}
 
                     >
-                        {/* <Marker latitude={37.75} longitude={-122.43} offsetLeft={-20} offsetTop={-10}>
-                            <div>You are here</div>
-                        </Marker> */}
 
                         <Layer {...this.state.parkLayer} paint={{ 'fill-color': this.state.parkColor }} />
 
