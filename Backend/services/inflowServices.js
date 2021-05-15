@@ -15,7 +15,7 @@ const fs = require('fs')
 module.exports.getinflowprediction = async (req, res) => {
     console.log("Inside Inflow GET Hospital prediction service" + JSON.stringify(req.query));
     let out = {}
-    fs.readFile("./data/TimeSeries.json", "utf8", (err, jsonString) => {
+    fs.readFile("./data/TimeSeries_latest.json", "utf8", (err, jsonString) => {
         if (err) {
             console.log("Error reading file from disk:", err);
             return;
