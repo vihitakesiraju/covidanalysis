@@ -75,10 +75,13 @@ class GeoSpatialHotspots extends Component {
     filterLocation(location) {
         console.log(location)
         let res = covidData.features.filter((loc) => {
+            // console.log(loc);
+            // if (loc.geometry) {
             let temp = loc.geometry.coordinates
             if (temp[0].toFixed(1) === location[0].toFixed(1) && temp[1].toFixed(1) === location[1].toFixed(1)) {
                 return loc
             }
+            // }
             return null;
         })
         console.log(res);
@@ -128,10 +131,10 @@ class GeoSpatialHotspots extends Component {
                             closeOnClick={false}
                             onClose={() => this.togglePopup()}
                             anchor="top" >
-                            <p><b>Days to 10X:</b>{this.state.popupLocation.properties.DaysTo10X}</p>
+                            <p><b>Days to 10X:</b>{this.state.popupLocation.properties.DaysTo10X_x}</p>
                             {/* <p><b>Confirmed Cases:</b>{this.state.popupLocation.properties.CumConfirmed}</p> */}
                             {/* <p><b>Deaths:</b>{this.state.popupLocation.properties.CumDeaths}</p> */}
-                            <p><b>Current Acceleration:</b>{this.state.popupLocation.properties.CurrentAccel}</p>
+                            <p><b>Current Acceleration:</b>{this.state.popupLocation.properties.Current_Accel_y}</p>
                             <p><b>Cluster Center:</b>{this.state.popupLocation.geometry.coordinates[0] + " , " + this.state.popupLocation.geometry.coordinates[1]}</p>
                         </Popup>}
 

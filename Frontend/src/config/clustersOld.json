@@ -1,0 +1,2297 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [20.1683, 41.1533] },
+      "properties": {
+        "Country": "Albania",
+        "Lat": 41.1533,
+        "Long": 20.1683,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 10.0,
+        "Early_Mortality": 0.2029970002,
+        "Current_Accel": 0.9167689087,
+        "cluster": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [1.6596, 28.0339] },
+      "properties": {
+        "Country": "Algeria",
+        "Lat": 28.0339,
+        "Long": 1.6596,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 13.0,
+        "Early_Mortality": 0.6855750863,
+        "Current_Accel": 0.6933882987,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [17.8739, -11.2027] },
+      "properties": {
+        "Country": "Angola",
+        "Lat": -11.2027,
+        "Long": 17.8739,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 39.0,
+        "Early_Mortality": 0.2394195119,
+        "Current_Accel": 0.9775460028,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-63.6167, -38.4161] },
+      "properties": {
+        "Country": "Argentina",
+        "Lat": -38.4161,
+        "Long": -63.6167,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 13.0,
+        "Early_Mortality": 0.0947827677,
+        "Current_Accel": 0.8680089722,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [14.5501, 47.5162] },
+      "properties": {
+        "Country": "Austria",
+        "Lat": 47.5162,
+        "Long": 14.5501,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 0.1173350546,
+        "Current_Accel": 0.6742554091,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [90.3563, 23.685] },
+      "properties": {
+        "Country": "Bangladesh",
+        "Lat": 23.685,
+        "Long": 90.3563,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0276674251,
+        "Current_Accel": 0.8638250964,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [4.469936, 50.8333] },
+      "properties": {
+        "Country": "Belgium",
+        "Lat": 50.8333,
+        "Long": 4.469936,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 0.3830312281,
+        "Current_Accel": 1.0184904596,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-63.5887, -16.2902] },
+      "properties": {
+        "Country": "Bolivia",
+        "Lat": -16.2902,
+        "Long": -63.5887,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 18.0,
+        "Early_Mortality": 0.2508126403,
+        "Current_Accel": 1.016168998,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-51.9253, -14.235] },
+      "properties": {
+        "Country": "Brazil",
+        "Lat": -14.235,
+        "Long": -51.9253,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 10.0,
+        "Early_Mortality": 0.2540371874,
+        "Current_Accel": 1.3087130728,
+        "cluster": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-83.1076, 52.9399] },
+      "properties": {
+        "Country": "Canada",
+        "Lat": 52.9399,
+        "Long": -83.1076,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 8.0,
+        "Early_Mortality": 0.5636834193,
+        "Current_Accel": 0.9106276586,
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-71.543, -35.6751] },
+      "properties": {
+        "Country": "Chile",
+        "Lat": -35.6751,
+        "Long": -71.543,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 0.0597078124,
+        "Current_Accel": 1.052588063,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [113.55, 31.8257] },
+      "properties": {
+        "Country": "China",
+        "Lat": 31.8257,
+        "Long": 113.55,
+        "CumConfirmed": 548,
+        "CumDeaths": 17,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [117.2264, 31.8257] },
+      "properties": {
+        "Country": "China",
+        "Lat": 31.8257,
+        "Long": 117.2264,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [116.4142, 40.1824] },
+      "properties": {
+        "Country": "China",
+        "Lat": 40.1824,
+        "Long": 116.4142,
+        "CumConfirmed": 14,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [107.874, 30.0572] },
+      "properties": {
+        "Country": "China",
+        "Lat": 30.0572,
+        "Long": 107.874,
+        "CumConfirmed": 6,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [117.9874, 26.0789] },
+      "properties": {
+        "Country": "China",
+        "Lat": 26.0789,
+        "Long": 117.9874,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [104.2861, 35.7518] },
+      "properties": {
+        "Country": "China",
+        "Lat": 35.7518,
+        "Long": 104.2861,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [113.4244, 23.3417] },
+      "properties": {
+        "Country": "China",
+        "Lat": 23.3417,
+        "Long": 113.4244,
+        "CumConfirmed": 26,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [108.7881, 23.8298] },
+      "properties": {
+        "Country": "China",
+        "Lat": 23.8298,
+        "Long": 108.7881,
+        "CumConfirmed": 2,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [106.8748, 26.8154] },
+      "properties": {
+        "Country": "China",
+        "Lat": 26.8154,
+        "Long": 106.8748,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [109.7453, 19.1959] },
+      "properties": {
+        "Country": "China",
+        "Lat": 19.1959,
+        "Long": 109.7453,
+        "CumConfirmed": 4,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [116.1306, 39.549] },
+      "properties": {
+        "Country": "China",
+        "Lat": 39.549,
+        "Long": 116.1306,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.7615, 47.862] },
+      "properties": {
+        "Country": "China",
+        "Lat": 47.862,
+        "Long": 127.7615,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.9042, 37.8957] },
+      "properties": {
+        "Country": "China",
+        "Lat": 37.8957,
+        "Long": 114.9042,
+        "CumConfirmed": 5,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [114.2, 22.3] },
+      "properties": {
+        "Country": "China",
+        "Lat": 22.3,
+        "Long": 114.2,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [112.2707, 30.9756] },
+      "properties": {
+        "Country": "China",
+        "Lat": 30.9756,
+        "Long": 112.2707,
+        "CumConfirmed": 444,
+        "CumDeaths": 17,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [111.7088, 27.6104] },
+      "properties": {
+        "Country": "China",
+        "Lat": 27.6104,
+        "Long": 111.7088,
+        "CumConfirmed": 4,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [113.9448, 44.0935] },
+      "properties": {
+        "Country": "China",
+        "Lat": 44.0935,
+        "Long": 113.9448,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [119.455, 32.9711] },
+      "properties": {
+        "Country": "China",
+        "Lat": 32.9711,
+        "Long": 119.455,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [115.7221, 27.614] },
+      "properties": {
+        "Country": "China",
+        "Lat": 27.614,
+        "Long": 115.7221,
+        "CumConfirmed": 2,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [126.1923, 43.6661] },
+      "properties": {
+        "Country": "China",
+        "Lat": 43.6661,
+        "Long": 126.1923,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [122.6085, 41.2956] },
+      "properties": {
+        "Country": "China",
+        "Lat": 41.2956,
+        "Long": 122.6085,
+        "CumConfirmed": 2,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [113.55, 22.1667] },
+      "properties": {
+        "Country": "China",
+        "Lat": 22.1667,
+        "Long": 113.55,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [106.1655, 37.2692] },
+      "properties": {
+        "Country": "China",
+        "Lat": 37.2692,
+        "Long": 106.1655,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [95.9956, 35.7452] },
+      "properties": {
+        "Country": "China",
+        "Lat": 35.7452,
+        "Long": 95.9956,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [108.8701, 35.1917] },
+      "properties": {
+        "Country": "China",
+        "Lat": 35.1917,
+        "Long": 108.8701,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [118.1498, 36.3427] },
+      "properties": {
+        "Country": "China",
+        "Lat": 36.3427,
+        "Long": 118.1498,
+        "CumConfirmed": 2,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [121.4491, 31.202] },
+      "properties": {
+        "Country": "China",
+        "Lat": 31.202,
+        "Long": 121.4491,
+        "CumConfirmed": 9,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [112.2922, 37.5777] },
+      "properties": {
+        "Country": "China",
+        "Lat": 37.5777,
+        "Long": 112.2922,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [102.7103, 30.6171] },
+      "properties": {
+        "Country": "China",
+        "Lat": 30.6171,
+        "Long": 102.7103,
+        "CumConfirmed": 5,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [117.323, 39.3054] },
+      "properties": {
+        "Country": "China",
+        "Lat": 39.3054,
+        "Long": 117.323,
+        "CumConfirmed": 4,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [88.0924, 31.6927] },
+      "properties": {
+        "Country": "China",
+        "Lat": 31.6927,
+        "Long": 88.0924,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [85.2401, 41.1129] },
+      "properties": {
+        "Country": "China",
+        "Lat": 41.1129,
+        "Long": 85.2401,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [101.487, 24.974] },
+      "properties": {
+        "Country": "China",
+        "Lat": 24.974,
+        "Long": 101.487,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [120.0934, 29.1832] },
+      "properties": {
+        "Country": "China",
+        "Lat": 29.1832,
+        "Long": 120.0934,
+        "CumConfirmed": 10,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.0494919208,
+        "Current_Accel": 0.7872057317,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-74.2973, 4.5709] },
+      "properties": {
+        "Country": "Colombia",
+        "Lat": 4.5709,
+        "Long": -74.2973,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 14.0,
+        "Early_Mortality": 0.1278147363,
+        "Current_Accel": 0.8001869793,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-77.781167, 21.521757] },
+      "properties": {
+        "Country": "Cuba",
+        "Lat": 21.521757,
+        "Long": -77.781167,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 12.0,
+        "Early_Mortality": 0.0926723967,
+        "Current_Accel": 0.8788763907,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [15.473, 49.8175] },
+      "properties": {
+        "Country": "Czechia",
+        "Lat": 49.8175,
+        "Long": 15.473,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 0.0890272557,
+        "Current_Accel": 0.9697339921,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.5018, 56.2639] },
+      "properties": {
+        "Country": "Denmark",
+        "Lat": 56.2639,
+        "Long": 9.5018,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 3.0,
+        "Early_Mortality": 0.2303321587,
+        "Current_Accel": 1.4089401215,
+        "cluster": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-70.1627, 18.7357] },
+      "properties": {
+        "Country": "Dominican Republic",
+        "Lat": 18.7357,
+        "Long": -70.1627,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 5.0,
+        "Early_Mortality": 0.2971186901,
+        "Current_Accel": 2.4952537262,
+        "cluster": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-78.1834, -1.8312] },
+      "properties": {
+        "Country": "Ecuador",
+        "Lat": -1.8312,
+        "Long": -78.1834,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 4.0,
+        "Early_Mortality": 0.4151362152,
+        "Current_Accel": 0.7339257386,
+        "cluster": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [30.802498, 26.820553] },
+      "properties": {
+        "Country": "Egypt",
+        "Lat": 26.820553,
+        "Long": 30.802498,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 23.0,
+        "Early_Mortality": 0.2782710342,
+        "Current_Accel": 1.0385427016,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [40.4897, 9.145] },
+      "properties": {
+        "Country": "Ethiopia",
+        "Lat": 9.145,
+        "Long": 40.4897,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 21.0,
+        "Early_Mortality": 0.0493596734,
+        "Current_Accel": 0.7205162668,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [10.451526, 51.165691] },
+      "properties": {
+        "Country": "Germany",
+        "Lat": 51.165691,
+        "Long": 10.451526,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 8.0,
+        "Early_Mortality": 0.1020696064,
+        "Current_Accel": 0.46672757,
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [21.8243, 39.0742] },
+      "properties": {
+        "Country": "Greece",
+        "Lat": 39.0742,
+        "Long": 21.8243,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 7.0,
+        "Early_Mortality": 0.2232266932,
+        "Current_Accel": 1.2090715239,
+        "cluster": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [19.5033, 47.1625] },
+      "properties": {
+        "Country": "Hungary",
+        "Lat": 47.1625,
+        "Long": 19.5033,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 10.0,
+        "Early_Mortality": 0.2072038056,
+        "Current_Accel": 1.0064974438,
+        "cluster": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [78.96288, 20.593684] },
+      "properties": {
+        "Country": "India",
+        "Lat": 20.593684,
+        "Long": 78.96288,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 23.0,
+        "Early_Mortality": 0.0621895386,
+        "Current_Accel": 0.4984730867,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [113.9213, -0.7893] },
+      "properties": {
+        "Country": "Indonesia",
+        "Lat": -0.7893,
+        "Long": 113.9213,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 25.0,
+        "Early_Mortality": 0.212717202,
+        "Current_Accel": 0.9822237194,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [53.688046, 32.427908] },
+      "properties": {
+        "Country": "Iran",
+        "Lat": 32.427908,
+        "Long": 53.688046,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 4.0,
+        "Early_Mortality": 0.4427481172,
+        "Current_Accel": 0.8425824195,
+        "cluster": 5
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [43.679291, 33.223191] },
+      "properties": {
+        "Country": "Iraq",
+        "Lat": 33.223191,
+        "Long": 43.679291,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 19.0,
+        "Early_Mortality": 0.1249187407,
+        "Current_Accel": 0.7612997796,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-7.6921, 53.1424] },
+      "properties": {
+        "Country": "Ireland",
+        "Lat": 53.1424,
+        "Long": -7.6921,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 5.0,
+        "Early_Mortality": 0.3688355802,
+        "Current_Accel": 0.8199978293,
+        "cluster": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [12.56738, 41.87194] },
+      "properties": {
+        "Country": "Italy",
+        "Lat": 41.87194,
+        "Long": 12.56738,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.2341061226,
+        "Current_Accel": 0.8039752139,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [138.252924, 36.204824] },
+      "properties": {
+        "Country": "Japan",
+        "Lat": 36.204824,
+        "Long": 138.252924,
+        "CumConfirmed": 2,
+        "CumDeaths": 0,
+        "DaysTo10X": 25.0,
+        "Early_Mortality": 0.0527792005,
+        "Current_Accel": 0.9537415403,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [127.766922, 35.907757] },
+      "properties": {
+        "Country": "Korea, South",
+        "Lat": 35.907757,
+        "Long": 127.766922,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 5.0,
+        "Early_Mortality": 0.0264260368,
+        "Current_Accel": 0.8587913318,
+        "cluster": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [101.975766, 4.210484] },
+      "properties": {
+        "Country": "Malaysia",
+        "Lat": 4.210484,
+        "Long": 101.975766,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 8.0,
+        "Early_Mortality": 0.1024990468,
+        "Current_Accel": 0.8261231247,
+        "cluster": 4
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-10.9408, 21.0079] },
+      "properties": {
+        "Country": "Mauritania",
+        "Lat": 21.0079,
+        "Long": -10.9408,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 5.0,
+        "Early_Mortality": 0.3396970329,
+        "Current_Accel": 0.6576709409,
+        "cluster": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-102.5528, 23.6345] },
+      "properties": {
+        "Country": "Mexico",
+        "Lat": 23.6345,
+        "Long": -102.5528,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 14.0,
+        "Early_Mortality": 0.292704898,
+        "Current_Accel": 0.9671444195,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-7.0926, 31.7917] },
+      "properties": {
+        "Country": "Morocco",
+        "Lat": 31.7917,
+        "Long": -7.0926,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 12.0,
+        "Early_Mortality": 0.1651447246,
+        "Current_Accel": 0.7524557395,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [5.2913, 52.1326] },
+      "properties": {
+        "Country": "Netherlands",
+        "Lat": 52.1326,
+        "Long": 5.2913,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 0.7710222929,
+        "Current_Accel": 0.7962364557,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [8.6753, 9.082] },
+      "properties": {
+        "Country": "Nigeria",
+        "Lat": 9.082,
+        "Long": 8.6753,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 24.0,
+        "Early_Mortality": 0.0818975311,
+        "Current_Accel": 0.7089534487,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [69.3451, 30.3753] },
+      "properties": {
+        "Country": "Pakistan",
+        "Lat": 30.3753,
+        "Long": 69.3451,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 21.0,
+        "Early_Mortality": 0.0453723506,
+        "Current_Accel": 0.6669308526,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-80.7821, 8.538] },
+      "properties": {
+        "Country": "Panama",
+        "Lat": 8.538,
+        "Long": -80.7821,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 7.0,
+        "Early_Mortality": 0.2975870532,
+        "Current_Accel": 1.3101975566,
+        "cluster": 7
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-75.0152, -9.19] },
+      "properties": {
+        "Country": "Peru",
+        "Lat": -9.19,
+        "Long": -75.0152,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 12.0,
+        "Early_Mortality": 0.2012455912,
+        "Current_Accel": 0.6665392214,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [121.774017, 12.879721] },
+      "properties": {
+        "Country": "Philippines",
+        "Lat": 12.879721,
+        "Long": 121.774017,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 12.0,
+        "Early_Mortality": 0.1342095386,
+        "Current_Accel": 0.9586922101,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [19.1451, 51.9194] },
+      "properties": {
+        "Country": "Poland",
+        "Lat": 51.9194,
+        "Long": 19.1451,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 9.0,
+        "Early_Mortality": 0.1334209403,
+        "Current_Accel": 1.3822565896,
+        "cluster": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-8.2245, 39.3999] },
+      "properties": {
+        "Country": "Portugal",
+        "Lat": 39.3999,
+        "Long": -8.2245,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 5.0,
+        "Early_Mortality": 0.6588895122,
+        "Current_Accel": 0.858137024,
+        "cluster": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [24.9668, 45.9432] },
+      "properties": {
+        "Country": "Romania",
+        "Lat": 45.9432,
+        "Long": 24.9668,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 10.0,
+        "Early_Mortality": 0.4600724054,
+        "Current_Accel": 1.007800438,
+        "cluster": 0
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [105.318756, 61.52401] },
+      "properties": {
+        "Country": "Russia",
+        "Lat": 61.52401,
+        "Long": 105.318756,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 9.0,
+        "Early_Mortality": 0.0654002133,
+        "Current_Accel": 0.9555870302,
+        "cluster": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [45.079162, 23.885942] },
+      "properties": {
+        "Country": "Saudi Arabia",
+        "Lat": 23.885942,
+        "Long": 45.079162,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 9.0,
+        "Early_Mortality": 0.0822689431,
+        "Current_Accel": 0.8367741159,
+        "cluster": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [22.9375, -30.5595] },
+      "properties": {
+        "Country": "South Africa",
+        "Lat": -30.5595,
+        "Long": 22.9375,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 15.0,
+        "Early_Mortality": 0.0182690614,
+        "Current_Accel": 1.4804182418,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [100.992541, 15.870032] },
+      "properties": {
+        "Country": "Thailand",
+        "Lat": 15.870032,
+        "Long": 100.992541,
+        "CumConfirmed": 4,
+        "CumDeaths": 0,
+        "DaysTo10X": 15.0,
+        "Early_Mortality": 0.0266339661,
+        "Current_Accel": 0.3580768051,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [9.537499, 33.886917] },
+      "properties": {
+        "Country": "Tunisia",
+        "Lat": 33.886917,
+        "Long": 9.537499,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 9.0,
+        "Early_Mortality": 0.1314250979,
+        "Current_Accel": 0.5534413605,
+        "cluster": 8
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [35.2433, 38.9637] },
+      "properties": {
+        "Country": "Turkey",
+        "Lat": 38.9637,
+        "Long": 35.2433,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 5.0,
+        "Early_Mortality": 0.3588835633,
+        "Current_Accel": 0.4920537864,
+        "cluster": 6
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-100.0, 40.0] },
+      "properties": {
+        "Country": "US",
+        "Lat": 40.0,
+        "Long": -100.0,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.65158371, 32.85044126]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 32.85044126,
+        "Long": -86.65158371,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-149.5741743, 59.79603738]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 59.79603738,
+        "Long": -149.5741743,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-170.132, -14.271] },
+      "properties": {
+        "Country": "US",
+        "Lat": -14.271,
+        "Long": -170.132,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-110.8479088, 33.21498827]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 33.21498827,
+        "Long": -110.8479088,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.42320562, 34.9459153]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 34.9459153,
+        "Long": -92.42320562,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.80112585, 37.982716535]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 37.982716535,
+        "Long": -120.80112585,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.43381075, 38.87189877]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 38.87189877,
+        "Long": -105.43381075,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.43399837, 41.474230515]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 41.474230515,
+        "Long": -72.43399837,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-75.39031349, 38.66143781]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 38.66143781,
+        "Long": -75.39031349,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [0.0, 0.0] },
+      "properties": {
+        "Country": "US",
+        "Lat": 0.0,
+        "Long": 0.0,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.28467476, 29.31829741]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 29.31829741,
+        "Long": -82.28467476,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-83.66879087, 32.73709786]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 32.73709786,
+        "Long": -83.66879087,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [144.7937, 13.4443] },
+      "properties": {
+        "Country": "US",
+        "Lat": 13.4443,
+        "Long": 144.7937,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-156.5689097, 20.86399628]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 20.86399628,
+        "Long": -156.5689097,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-114.47704375, 43.73947896]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 43.73947896,
+        "Long": -114.47704375,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.077688295, 39.76302483]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 39.76302483,
+        "Long": -89.077688295,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.125891085, 39.77682955]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 39.77682955,
+        "Long": -86.125891085,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-93.32780803, 42.03621213]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 42.03621213,
+        "Long": -93.32780803,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.07578384, 38.4808095]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 38.4808095,
+        "Long": -98.07578384,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-84.85960805, 37.55716] },
+      "properties": {
+        "Country": "US",
+        "Lat": 37.55716,
+        "Long": -84.85960805,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-91.762533265, 30.77597786]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 30.77597786,
+        "Long": -91.762533265,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-69.41414677, 44.446713025]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 44.446713025,
+        "Long": -69.41414677,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-76.585749845, 39.03434575]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 39.03434575,
+        "Long": -76.585749845,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.07850442, 42.13440424]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 42.13440424,
+        "Long": -71.07850442,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-84.89083249, 43.70639106]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 43.70639106,
+        "Long": -84.89083249,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-94.32603968, 45.17297924]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 45.17297924,
+        "Long": -94.32603968,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.530957415, 32.75415613]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 32.75415613,
+        "Long": -89.530957415,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-92.54382516, 38.41472379]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 38.41472379,
+        "Long": -92.54382516,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-109.8945161, 46.909866005]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 46.909866005,
+        "Long": -109.8945161,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.52150266, 41.22703692]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 41.22703692,
+        "Long": -98.52150266,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-117.6319999, 39.15509045]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 39.15509045,
+        "Long": -117.6319999,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.36158737, 43.294231355]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 43.294231355,
+        "Long": -71.36158737,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.61683016, 40.28047017]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 40.28047017,
+        "Long": -74.61683016,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-105.7417604, 34.64048375]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 34.64048375,
+        "Long": -105.7417604,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-74.964273065, 42.617764425]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 42.617764425,
+        "Long": -74.964273065,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-79.24596583, 35.651075225]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 35.651075225,
+        "Long": -79.24596583,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-99.84097493, 47.35423935]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 47.35423935,
+        "Long": -99.84097493,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [145.6739, 15.0979] },
+      "properties": {
+        "Country": "US",
+        "Lat": 15.0979,
+        "Long": 145.6739,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-82.95448222, 40.3162983]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 40.3162983,
+        "Long": -82.95448222,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-97.06826283, 35.49447108]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 35.49447108,
+        "Long": -97.06826283,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-121.65242485, 44.675842155]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 44.675842155,
+        "Long": -121.65242485,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-77.26297447, 40.77129231]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 40.77129231,
+        "Long": -77.26297447,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-66.332494, 18.2442045] },
+      "properties": {
+        "Country": "US",
+        "Lat": 18.2442045,
+        "Long": -66.332494,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-71.28652315, 41.5642026]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 41.5642026,
+        "Long": -71.28652315,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.96377352, 34.01293543]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 34.01293543,
+        "Long": -80.96377352,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.816762155, 44.071478135]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 44.071478135,
+        "Long": -98.816762155,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-86.00778595, 35.9278914]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 35.9278914,
+        "Long": -86.00778595,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-98.523751165, 31.772055605]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 31.772055605,
+        "Long": -98.523751165,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-111.5758676, 39.64834818]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 39.64834818,
+        "Long": -111.5758676,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-72.62980836, 44.15280289]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 44.15280289,
+        "Long": -72.62980836,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [-64.8963, 18.3358] },
+      "properties": {
+        "Country": "US",
+        "Lat": 18.3358,
+        "Long": -64.8963,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-78.15826963, 37.37373208]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 37.37373208,
+        "Long": -78.15826963,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-120.7380126, 47.12521214]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 47.12521214,
+        "Long": -120.7380126,
+        "CumConfirmed": 1,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-80.66591062, 38.84315422]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 38.84315422,
+        "Long": -80.66591062,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-89.56093696, 44.397069855]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 44.397069855,
+        "Long": -89.56093696,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": {
+        "type": "Point",
+        "coordinates": [-106.797885, 42.97272268]
+      },
+      "properties": {
+        "Country": "US",
+        "Lat": 42.97272268,
+        "Long": -106.797885,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 6.0,
+        "Early_Mortality": 1.0024824635,
+        "Current_Accel": 0.9450654862,
+        "cluster": 3
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [31.1656, 48.3794] },
+      "properties": {
+        "Country": "Ukraine",
+        "Lat": 48.3794,
+        "Long": 31.1656,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 11.0,
+        "Early_Mortality": 0.1364081466,
+        "Current_Accel": 0.7165581283,
+        "cluster": 1
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [108.277199, 14.058324] },
+      "properties": {
+        "Country": "Vietnam",
+        "Lat": 14.058324,
+        "Long": 108.277199,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 273.0,
+        "Early_Mortality": 0.0583459727,
+        "Current_Accel": 14.1786972041,
+        "cluster": 2
+      }
+    },
+    {
+      "type": "Feature",
+      "geometry": { "type": "Point", "coordinates": [48.516388, 15.552727] },
+      "properties": {
+        "Country": "Yemen",
+        "Lat": 15.552727,
+        "Long": 48.516388,
+        "CumConfirmed": 0,
+        "CumDeaths": 0,
+        "DaysTo10X": 28.0,
+        "Early_Mortality": 0.5506596543,
+        "Current_Accel": 0.4091945862,
+        "cluster": 2
+      }
+    }
+  ]
+}
